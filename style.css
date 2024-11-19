@@ -3,8 +3,11 @@ body {
     color: rgb(250, 11, 242);
 }
 
+header{
+    font-size: 30px;
+}
 
-section{
+.chamada{
     background-color: greenyellow;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -16,9 +19,24 @@ section{
     margin-right: 30px;
 }
 
+h1{
+     font-size: 30px;
+     color: red;
+}
+
+p{
+    font-size: 20px;
+}
+
 img{
     height: 150px;
 }
+
+.categoria{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .categoria-videos{
     display: flex;
     overflow-x: auto;
